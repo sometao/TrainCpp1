@@ -1,8 +1,8 @@
 #include "..\include\Box.h"
 
 Box::Box(std::string n) : name(n) {
-  height = 100;
-  width = 100;
+  height = 200;
+  width = 200;
 }
 
 void Box::bigger() {
